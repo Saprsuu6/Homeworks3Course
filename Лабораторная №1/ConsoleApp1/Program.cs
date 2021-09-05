@@ -61,22 +61,22 @@ namespace ConsoleApp1
             #endregion
 
             #region 3
-            //int sum = 0;
+            int sum = 0;
 
-            //for (int i = 0; i < arr.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < arr.GetLength(1); j++)
-            //    {
-            //        arr[i, j] = rand.Next(0, 20);
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    arr[i, j] = rand.Next(0, 20);
 
-            //        sum += arr[i, j];
+                    sum += arr[i, j];
 
-            //        Console.Write("{0,4}", arr[i, j]);
-            //    }
+                    Console.Write("{0,4}", arr[i, j]);
+                }
 
-            //    Console.WriteLine(" | The sum is {0}", sum);
-            //    sum = 0;
-            //}
+                Console.WriteLine(" | The sum is {0}", sum);
+                sum = 0;
+            }
             #endregion
 
             #region 4
