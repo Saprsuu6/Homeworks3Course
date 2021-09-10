@@ -6,23 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class MyExeptions : ApplicationException
-    {
-        public MyExeptions(string message) : base(message) { }
-    }
-
-    class NotEquals : MyExeptions
+    class NotEquals : ApplicationException
     {
         public NotEquals() : base("Vectors isn't equals") { }
     }
 
-    class Equals : MyExeptions
+    class Equals : ApplicationException
     {
         public Equals() : base("Vectors is equals") { }
     }
 
-    class CoppyTheSame : MyExeptions
+    class CountParams : ApplicationException
     {
-        public CoppyTheSame() : base("You can't coppy the same vector") { }
+        public CountParams() : base("Could be grater or less the 3 parametrs") { }
     }
 }

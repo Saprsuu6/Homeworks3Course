@@ -20,9 +20,9 @@ namespace ConsoleApp1
     }
     class Vector
     {
-        private int x;
-        private int y;
-        private int z;
+        private int x = 0;
+        private int y = 0;
+        private int z = 0;
 
         public Vector() { }
 
@@ -46,6 +46,27 @@ namespace ConsoleApp1
                 throw new ApplicationException("The params must be gratter the 0");
 
             this.z = z;
+        }
+        public Vector(params int[] values)
+        {
+            if (values.Length > 3)
+                throw new CountParams();
+
+            if (values.Length == 1)
+            {
+                x = values[0];
+            }
+            else if (values.Length == 2)
+            {
+                x = values[0];
+                y = values[1];
+            }
+            else
+            {
+                x = values[0];
+                y = values[1];
+                z = values[2];
+            }
         }
 
         public int X
@@ -76,7 +97,8 @@ namespace ConsoleApp1
             }
         }
         public int Z 
-        { set 
+        { 
+            set 
             {
                 if (value <= 0)
                     throw new ApplicationException("The params must be gratter the 0");
@@ -89,12 +111,9 @@ namespace ConsoleApp1
             }
         }
 
-        public Vector CoppyVector(Vector vector)
+        public Vector CoppyVector()
         {
-            if (vector == this)
-                throw new CoppyTheSame();
-
-            return new Vector(vector.X, vector.Y, vector.Z);
+            return new Vector(X, Y, Z);
         }
         public double Length()
         {

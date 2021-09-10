@@ -10,9 +10,9 @@ namespace ConsoleApp1
     {
         static void Testing()
         {
-            Vector vector1 = new Vector(1, 2, 3);
+            Vector vector1 = new Vector(new int[] { 1, 2, 3, 4});
 
-            Vector vector2 = vector1.CoppyVector(vector1);
+            Vector vector2 = vector1.CoppyVector();
             vector2.VectorToScalar(5);
 
             Show show1 = new Show(vector1);
