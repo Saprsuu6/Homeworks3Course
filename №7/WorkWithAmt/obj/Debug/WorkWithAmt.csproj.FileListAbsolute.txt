@@ -1,0 +1,14 @@
+C:\Users\Sapr_suu6\source\repos\WorkWithAmt\WorkWithAmt\bin\Debug\WorkWithAmt.exe.config
+C:\Users\Sapr_suu6\source\repos\WorkWithAmt\WorkWithAmt\bin\Debug\WorkWithAmt.exe
+C:\Users\Sapr_suu6\source\repos\WorkWithAmt\WorkWithAmt\bin\Debug\WorkWithAmt.pdb
+C:\Users\Sapr_suu6\source\repos\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.csproj.AssemblyReference.cache
+C:\Users\Sapr_suu6\source\repos\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.csproj.CoreCompileInputs.cache
+C:\Users\Sapr_suu6\source\repos\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.exe
+C:\Users\Sapr_suu6\source\repos\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.pdb
+C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\bin\Debug\WorkWithAmt.exe.config
+C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\bin\Debug\WorkWithAmt.exe
+C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\bin\Debug\WorkWithAmt.pdb
+C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.csprojAssemblyReference.cache
+C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.exe
+C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.pdb
