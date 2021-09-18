@@ -1,0 +1,7 @@
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\Goods.exe.config
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\Goods.exe
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\Goods.pdb
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\Goods.csprojAssemblyReference.cache
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\Goods.csproj.CoreCompileInputs.cache
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\Goods.exe
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\Goods.pdb
