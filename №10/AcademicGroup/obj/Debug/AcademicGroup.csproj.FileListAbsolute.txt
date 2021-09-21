@@ -1,0 +1,7 @@
+C:\Users\coffe\source\repos\AcademicGroup\AcademicGroup\bin\Debug\AcademicGroup.exe.config
+C:\Users\coffe\source\repos\AcademicGroup\AcademicGroup\bin\Debug\AcademicGroup.exe
+C:\Users\coffe\source\repos\AcademicGroup\AcademicGroup\bin\Debug\AcademicGroup.pdb
+C:\Users\coffe\source\repos\AcademicGroup\AcademicGroup\obj\Debug\AcademicGroup.csprojAssemblyReference.cache
+C:\Users\coffe\source\repos\AcademicGroup\AcademicGroup\obj\Debug\AcademicGroup.csproj.CoreCompileInputs.cache
+C:\Users\coffe\source\repos\AcademicGroup\AcademicGroup\obj\Debug\AcademicGroup.exe
+C:\Users\coffe\source\repos\AcademicGroup\AcademicGroup\obj\Debug\AcademicGroup.pdb
