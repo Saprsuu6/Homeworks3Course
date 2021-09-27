@@ -12,3 +12,10 @@ C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.csprojAssem
 C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.csproj.CoreCompileInputs.cache
 C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.exe
 C:\Users\coffe\Desktop\WorkWithAmt\WorkWithAmt\obj\Debug\WorkWithAmt.pdb
+C:\Users\coffe\Desktop\Homeworks3Course\№7\WorkWithAmt\bin\Debug\WorkWithAmt.exe.config
+C:\Users\coffe\Desktop\Homeworks3Course\№7\WorkWithAmt\bin\Debug\WorkWithAmt.exe
+C:\Users\coffe\Desktop\Homeworks3Course\№7\WorkWithAmt\bin\Debug\WorkWithAmt.pdb
+C:\Users\coffe\Desktop\Homeworks3Course\№7\WorkWithAmt\obj\Debug\WorkWithAmt.csprojAssemblyReference.cache
+C:\Users\coffe\Desktop\Homeworks3Course\№7\WorkWithAmt\obj\Debug\WorkWithAmt.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\Homeworks3Course\№7\WorkWithAmt\obj\Debug\WorkWithAmt.exe
+C:\Users\coffe\Desktop\Homeworks3Course\№7\WorkWithAmt\obj\Debug\WorkWithAmt.pdb

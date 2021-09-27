@@ -15,8 +15,12 @@ namespace WorkWithAutorisation
         private string passWord;
         private bool isValid;
         private Regular regular;
-        private BaseManagemant mng;
         private int counter = 0;
+
+        public delegate bool AccountCheckHandler(string login);
+        internal AccountCheckHandler delCheck;
+
+        public void FindHandler(AccountCheckHandler delCheck) => this.delCheck = delCheck;
 
         private void Input()
         {
@@ -26,10 +30,10 @@ namespace WorkWithAutorisation
             Console.Write("Enter your password: ");
             passWord = Console.ReadLine();
         }
-        public AutorisationForm(BaseManagemant mng, Regular regular)
+
+        public AutorisationForm(Regular regular)
         {
             this.regular = regular;
-            this.mng = mng;
         }
 
         public void Attemp()
@@ -37,7 +41,7 @@ namespace WorkWithAutorisation
             counter++;
             Input();
 
-            if (!mng.CheckForExistEmplioyer(login))
+            if (!delCheck.Invoke(login))
             {
                 throw new ApplicationException("Employer whith ligon was not registrated.");
             }

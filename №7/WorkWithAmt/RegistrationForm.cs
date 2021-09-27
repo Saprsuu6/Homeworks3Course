@@ -15,8 +15,16 @@ namespace WorkWithRegistration
         private string passWord;
         private bool isValid;
         private Regular regular;
-        private BaseManagemant mng;
         private int counter = 0;
+
+        public delegate void AccountRegHandler(Account account);
+        public delegate bool AccountCheckHandler(string login);
+        internal AccountRegHandler delReg;
+        internal AccountCheckHandler delCheck;
+
+        public void RegHandler(AccountRegHandler delReg) => this.delReg += delReg;
+
+        public void FindHandler(AccountCheckHandler delCheck) => this.delCheck = delCheck;
 
         private void Input()
         {
@@ -27,10 +35,9 @@ namespace WorkWithRegistration
             passWord = Console.ReadLine();
         }
 
-        public RegistrationForm(BaseManagemant mng, Regular regular)
+        public RegistrationForm(Regular regular)
         {
             this.regular = regular;
-            this.mng = mng;
         }
 
         public void Attemp()
@@ -38,7 +45,7 @@ namespace WorkWithRegistration
             counter++;
             Input();
 
-            if (mng.CheckForExistEmplioyer(login))
+            if (delCheck.Invoke(login))
             {
                 throw new ApplicationException("Employer whith login like that already exists.");
             }
@@ -50,7 +57,7 @@ namespace WorkWithRegistration
 
             if (isValid)
             {
-                mng.AddToBase(new Account(login, passWord));
+                delReg?.Invoke(new Account(login, passWord));
             }
             else
             {

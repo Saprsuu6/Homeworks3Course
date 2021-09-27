@@ -31,7 +31,10 @@ namespace WorkWithAmt
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
                     case 1:
-                        RegistrationForm registration = new RegistrationForm(mng, regular);
+                        RegistrationForm registration = new RegistrationForm(regular);
+                        registration.RegHandler(new RegistrationForm.AccountRegHandler(mng.AddToBase));
+                        registration.FindHandler(new RegistrationForm.AccountCheckHandler(mng.CheckForExistEmplioyer));
+
                         Console.WriteLine("You have only three attemps.");
                         registration.Attemp();
                         login = registration.Login;
@@ -39,7 +42,9 @@ namespace WorkWithAmt
                         break;
 
                     case 2:
-                        AutorisationForm autorisation = new AutorisationForm(mng, regular);
+                        AutorisationForm autorisation = new AutorisationForm(regular);
+                        autorisation.FindHandler(new AutorisationForm.AccountCheckHandler(mng.CheckForExistEmplioyer));
+
                         Console.WriteLine("You have only three attemps.");
                         autorisation.Attemp();
                         login = autorisation.Login;
@@ -54,7 +59,9 @@ namespace WorkWithAmt
 
             if (temp)
             {
-                AMT amt = new AMT(mng.Find(login));
+                AMT amt = new AMT();
+                amt.FindHandler(new AMT.AccountHandler(mng.Find));
+                amt.SetAccount(login);
 
                 Console.WriteLine("1. Find out info.");
                 Console.WriteLine("2. Top up account.");
@@ -74,17 +81,20 @@ namespace WorkWithAmt
 
                             case 2:
                                 Console.WriteLine("Enter the sum: ");
+
+                                amt.DoSmthHandler(new AMT.AccountDoSmthAccountHandler(amt.Input),
+                                    new AMT.AccountDoSmthAccountHandler(amt.TopUp));
+
                                 amt.TopUpAccount(Convert.ToUInt32(Console.ReadLine()));
                                 break;
 
                             case 3:
                                 Console.WriteLine("Enter the sum (0-{0}): ", amt.Cash);
-                                uint sum = Convert.ToUInt32(Console.ReadLine());
-                                if (sum < amt.Cash)
-                                {
-                                    amt.WithDrawCash(sum);
-                                }
-                                Console.WriteLine(sum);
+
+                                amt.DoSmthHandler(new AMT.AccountDoSmthAccountHandler(amt.Input),
+                                    new AMT.AccountDoSmthAccountHandler(amt.WithDraw));
+
+                                Console.WriteLine("{0}", amt.WithDrawCash(Convert.ToUInt32(Console.ReadLine())));
                                 break;
                             case 4:
                                 Console.WriteLine("Do u want to exit 1-Yes 2-No: ");
