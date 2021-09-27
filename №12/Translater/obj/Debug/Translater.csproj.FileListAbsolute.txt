@@ -1,0 +1,7 @@
+C:\Users\Sapr_suu6\source\repos\Translater\Translater\obj\Debug\Translater.csproj.AssemblyReference.cache
+C:\Users\Sapr_suu6\source\repos\Translater\Translater\obj\Debug\Translater.csproj.CoreCompileInputs.cache
+C:\Users\Sapr_suu6\source\repos\Translater\Translater\bin\Debug\Translater.exe.config
+C:\Users\Sapr_suu6\source\repos\Translater\Translater\bin\Debug\Translater.exe
+C:\Users\Sapr_suu6\source\repos\Translater\Translater\bin\Debug\Translater.pdb
+C:\Users\Sapr_suu6\source\repos\Translater\Translater\obj\Debug\Translater.exe
+C:\Users\Sapr_suu6\source\repos\Translater\Translater\obj\Debug\Translater.pdb
