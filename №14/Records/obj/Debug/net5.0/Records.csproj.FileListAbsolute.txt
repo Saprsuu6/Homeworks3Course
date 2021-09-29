@@ -1,0 +1,32 @@
+C:\Users\krisc\source\repos\Records\Records\bin\Debug\net5.0\Records.exe
+C:\Users\krisc\source\repos\Records\Records\bin\Debug\net5.0\Records.deps.json
+C:\Users\krisc\source\repos\Records\Records\bin\Debug\net5.0\Records.runtimeconfig.json
+C:\Users\krisc\source\repos\Records\Records\bin\Debug\net5.0\Records.runtimeconfig.dev.json
+C:\Users\krisc\source\repos\Records\Records\bin\Debug\net5.0\Records.dll
+C:\Users\krisc\source\repos\Records\Records\bin\Debug\net5.0\ref\Records.dll
+C:\Users\krisc\source\repos\Records\Records\bin\Debug\net5.0\Records.pdb
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\Records.csproj.AssemblyReference.cache
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\Records.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\Records.AssemblyInfoInputs.cache
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\Records.AssemblyInfo.cs
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\Records.csproj.CoreCompileInputs.cache
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\Records.dll
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\ref\Records.dll
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\Records.pdb
+C:\Users\krisc\source\repos\Records\Records\obj\Debug\net5.0\Records.genruntimeconfig.cache
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\bin\Debug\net5.0\Records.exe
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\bin\Debug\net5.0\Records.deps.json
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\bin\Debug\net5.0\Records.runtimeconfig.json
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\bin\Debug\net5.0\Records.runtimeconfig.dev.json
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\bin\Debug\net5.0\Records.dll
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\bin\Debug\net5.0\ref\Records.dll
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\bin\Debug\net5.0\Records.pdb
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\Records.csprojAssemblyReference.cache
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\Records.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\Records.AssemblyInfoInputs.cache
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\Records.AssemblyInfo.cs
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\Records.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\Records.dll
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\ref\Records.dll
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\Records.pdb
+C:\Users\coffe\Desktop\14. Анонимные методы. Лямбда-выражения. Замыкания\Anonymous functions\Records\obj\Debug\net5.0\Records.genruntimeconfig.cache
