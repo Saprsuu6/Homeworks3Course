@@ -1,0 +1,14 @@
+C:\Users\Sapr_suu6\source\repos\Race\Race\bin\Debug\Race.exe.config
+C:\Users\Sapr_suu6\source\repos\Race\Race\bin\Debug\Race.exe
+C:\Users\Sapr_suu6\source\repos\Race\Race\bin\Debug\Race.pdb
+C:\Users\Sapr_suu6\source\repos\Race\Race\obj\Debug\Race.csproj.AssemblyReference.cache
+C:\Users\Sapr_suu6\source\repos\Race\Race\obj\Debug\Race.csproj.CoreCompileInputs.cache
+C:\Users\Sapr_suu6\source\repos\Race\Race\obj\Debug\Race.exe
+C:\Users\Sapr_suu6\source\repos\Race\Race\obj\Debug\Race.pdb
+C:\Users\coffe\Desktop\Race\Race\bin\Debug\Race.exe.config
+C:\Users\coffe\Desktop\Race\Race\bin\Debug\Race.exe
+C:\Users\coffe\Desktop\Race\Race\bin\Debug\Race.pdb
+C:\Users\coffe\Desktop\Race\Race\obj\Debug\Race.csprojAssemblyReference.cache
+C:\Users\coffe\Desktop\Race\Race\obj\Debug\Race.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\Race\Race\obj\Debug\Race.exe
+C:\Users\coffe\Desktop\Race\Race\obj\Debug\Race.pdb
