@@ -1,0 +1,14 @@
+C:\Users\coffe\source\repos\FurnitureBase\FurnitureBase\bin\Debug\FurnitureBase.exe.config
+C:\Users\coffe\source\repos\FurnitureBase\FurnitureBase\bin\Debug\FurnitureBase.exe
+C:\Users\coffe\source\repos\FurnitureBase\FurnitureBase\bin\Debug\FurnitureBase.pdb
+C:\Users\coffe\source\repos\FurnitureBase\FurnitureBase\obj\Debug\FurnitureBase.csproj.AssemblyReference.cache
+C:\Users\coffe\source\repos\FurnitureBase\FurnitureBase\obj\Debug\FurnitureBase.csproj.CoreCompileInputs.cache
+C:\Users\coffe\source\repos\FurnitureBase\FurnitureBase\obj\Debug\FurnitureBase.exe
+C:\Users\coffe\source\repos\FurnitureBase\FurnitureBase\obj\Debug\FurnitureBase.pdb
+C:\Users\coffe\Desktop\FurnitureBase\FurnitureBase\bin\Debug\FurnitureBase.exe.config
+C:\Users\coffe\Desktop\FurnitureBase\FurnitureBase\bin\Debug\FurnitureBase.exe
+C:\Users\coffe\Desktop\FurnitureBase\FurnitureBase\bin\Debug\FurnitureBase.pdb
+C:\Users\coffe\Desktop\FurnitureBase\FurnitureBase\obj\Debug\FurnitureBase.csproj.AssemblyReference.cache
+C:\Users\coffe\Desktop\FurnitureBase\FurnitureBase\obj\Debug\FurnitureBase.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\FurnitureBase\FurnitureBase\obj\Debug\FurnitureBase.exe
+C:\Users\coffe\Desktop\FurnitureBase\FurnitureBase\obj\Debug\FurnitureBase.pdb
