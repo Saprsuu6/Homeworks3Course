@@ -16,7 +16,7 @@ namespace ReadCs
             {
                 using (StringWriter newBufer = new StringWriter())
                 {
-                    string path = "Program.cs";
+                    string path = "RegistrationForm.cs";
                     using (StreamReader reader = new StreamReader(path))
                     {
                         Changing change = new Changing();

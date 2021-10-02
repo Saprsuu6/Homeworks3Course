@@ -5,3 +5,10 @@ C:\Users\coffe\source\repos\ReadCs\ReadCs\obj\Debug\ReadCs.csproj.AssemblyRefere
 C:\Users\coffe\source\repos\ReadCs\ReadCs\obj\Debug\ReadCs.csproj.CoreCompileInputs.cache
 C:\Users\coffe\source\repos\ReadCs\ReadCs\obj\Debug\ReadCs.exe
 C:\Users\coffe\source\repos\ReadCs\ReadCs\obj\Debug\ReadCs.pdb
+C:\Users\coffe\Desktop\Homeworks3Course\№16\ReadCs\bin\Debug\ReadCs.exe.config
+C:\Users\coffe\Desktop\Homeworks3Course\№16\ReadCs\bin\Debug\ReadCs.exe
+C:\Users\coffe\Desktop\Homeworks3Course\№16\ReadCs\bin\Debug\ReadCs.pdb
+C:\Users\coffe\Desktop\Homeworks3Course\№16\ReadCs\obj\Debug\ReadCs.csproj.AssemblyReference.cache
+C:\Users\coffe\Desktop\Homeworks3Course\№16\ReadCs\obj\Debug\ReadCs.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\Homeworks3Course\№16\ReadCs\obj\Debug\ReadCs.exe
+C:\Users\coffe\Desktop\Homeworks3Course\№16\ReadCs\obj\Debug\ReadCs.pdb
