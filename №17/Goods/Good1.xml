@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<all info>
+	<washing machine>
+		<firm some atribute="-">washing machine</firm>
+		<model>123</model>
+		<serial number>1</serial number>
+		<number>1</number>
+	</washing machine>
+	<manufacturer>
+		<country some atribute="-">Ukrain</country>
+		<data>
+			<day>27</day>
+			<month>8</month>
+			<year>2002</year>
+		</data>
+	</manufacturer>
+	<characteristics>
+		<power some atribute="-">-</power>
+		<model characteristics>-</model characteristics>
+		<add characteristics>-</add characteristics>
+	</characteristics>
+	<price>
+		<price some atribute="-">1000</price>
+		<price for goods>10000</price for goods>
+	</price>
+	<info of credit>
+		<amount month some atribute="-">24</amount month>
+		<sum to month>20</sum to month>
+	</info of credit>
+</all info>

@@ -1,0 +1,16 @@
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\net5.0\Goods.exe
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\net5.0\Goods.deps.json
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\net5.0\Goods.runtimeconfig.json
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\net5.0\Goods.runtimeconfig.dev.json
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\net5.0\Goods.dll
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\net5.0\ref\Goods.dll
+C:\Users\coffe\source\repos\Goods\Goods\bin\Debug\net5.0\Goods.pdb
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\Goods.csproj.AssemblyReference.cache
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\Goods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\Goods.AssemblyInfoInputs.cache
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\Goods.AssemblyInfo.cs
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\Goods.csproj.CoreCompileInputs.cache
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\Goods.dll
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\ref\Goods.dll
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\Goods.pdb
+C:\Users\coffe\source\repos\Goods\Goods\obj\Debug\net5.0\Goods.genruntimeconfig.cache
