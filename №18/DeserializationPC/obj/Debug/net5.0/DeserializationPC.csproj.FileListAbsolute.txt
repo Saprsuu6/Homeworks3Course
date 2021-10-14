@@ -1,0 +1,17 @@
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\DeserializationPC.exe
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\DeserializationPC.deps.json
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\DeserializationPC.runtimeconfig.json
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\DeserializationPC.runtimeconfig.dev.json
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\DeserializationPC.dll
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\ref\DeserializationPC.dll
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\DeserializationPC.pdb
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\ClassLib.dll
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\bin\Debug\net5.0\ClassLib.pdb
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\obj\Debug\net5.0\DeserializationPC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\obj\Debug\net5.0\DeserializationPC.AssemblyInfoInputs.cache
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\obj\Debug\net5.0\DeserializationPC.AssemblyInfo.cs
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\obj\Debug\net5.0\DeserializationPC.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\obj\Debug\net5.0\DeserializationPC.dll
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\obj\Debug\net5.0\ref\DeserializationPC.dll
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\obj\Debug\net5.0\DeserializationPC.pdb
+C:\Users\coffe\Desktop\ClassLib\DeserializationPC\obj\Debug\net5.0\DeserializationPC.genruntimeconfig.cache
