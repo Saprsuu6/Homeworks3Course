@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GK4/SHucmnD/1YXpx3rharz8UrCF/JfuR0VtoKJZOvlH1nHraLZAvZGnj7joZkNcOFkW2QwjZ9OE9TifN8GQuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\coffe\\source\\repos\\Logging\\Logging\\Logging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\coffe\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512"
+  ],
+  "logs": []
+}
