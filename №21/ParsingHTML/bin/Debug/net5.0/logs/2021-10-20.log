@@ -1,0 +1,88 @@
+2021-10-20 11:22:36.7595 | TRACE | ParsingHTML.Program | Teg <!DOCTYPE html> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <html lang="en"> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <head> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <meta charset="UTF-8"> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <meta name="viewport" content="width=device-width, initial-scale=1.0"> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <link rel="stylesheet" href="./Style.css"> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <title>Grid</title> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg </head> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <body> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <div> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <header><p>Header</p></header> was delete in file E:\Project.html
+2021-10-20 11:22:38.4151 | TRACE | ParsingHTML.Program | Teg <nav><p>Menu</p></nav> was delete in file E:\Project.html
+2021-10-20 11:22:38.4202 | TRACE | ParsingHTML.Program | Teg <section><p>Hero</p></section> was delete in file E:\Project.html
+2021-10-20 11:22:38.4202 | TRACE | ParsingHTML.Program | Teg <main><p>Main</p></main> was delete in file E:\Project.html
+2021-10-20 11:22:38.4202 | TRACE | ParsingHTML.Program | Teg <aside><p>Image</p></aside> was delete in file E:\Project.html
+2021-10-20 11:22:38.4202 | TRACE | ParsingHTML.Program | Teg <aside><p>Extra</p></aside> was delete in file E:\Project.html
+2021-10-20 11:22:38.4202 | TRACE | ParsingHTML.Program | Teg <footer><p>Banner</p></footer> was delete in file E:\Project.html
+2021-10-20 11:22:38.4202 | TRACE | ParsingHTML.Program | Teg </div> was delete in file E:\Project.html
+2021-10-20 11:22:38.4202 | TRACE | ParsingHTML.Program | Teg </body> was delete in file E:\Project.html
+2021-10-20 11:22:38.4202 | TRACE | ParsingHTML.Program | Teg </html> was delete in file E:\Project.html
+2021-10-20 11:40:28.8965 | TRACE | ParsingHTML.Program | Teg <!DOCTYPE html> was delete in file E:\Project.html
+2021-10-20 11:40:30.5743 | TRACE | ParsingHTML.Program | Teg <html lang="en"> was delete in file E:\Project.html
+2021-10-20 11:40:32.0061 | TRACE | ParsingHTML.Program | Teg <head> was delete in file E:\Project.html
+2021-10-20 11:40:33.6077 | TRACE | ParsingHTML.Program | Teg <meta charset="UTF-8"> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <meta name="viewport" content="width=device-width, initial-scale=1.0"> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <link rel="stylesheet" href="./Style.css"> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <title>Grid</title> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg </head> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <body> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <div> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <header><p>Header</p></header> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <nav><p>Menu</p></nav> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <section><p>Hero</p></section> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <main><p>Main</p></main> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <aside><p>Image</p></aside> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <aside><p>Extra</p></aside> was delete in file E:\Project.html
+2021-10-20 11:40:36.2109 | TRACE | ParsingHTML.Program | Teg <footer><p>Banner</p></footer> was delete in file E:\Project.html
+2021-10-20 11:40:36.2172 | TRACE | ParsingHTML.Program | Teg </div> was delete in file E:\Project.html
+2021-10-20 11:40:36.2172 | TRACE | ParsingHTML.Program | Teg </body> was delete in file E:\Project.html
+2021-10-20 11:40:36.2172 | TRACE | ParsingHTML.Program | Teg </html> was delete in file E:\Project.html
+2021-10-20 11:42:28.1559 | TRACE | ParsingHTML.Program | Teg <!DOCTYPE html> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <html lang="en"> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <head> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <meta charset="UTF-8"> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <meta name="viewport" content="width=device-width, initial-scale=1.0"> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <link rel="stylesheet" href="./Style.css"> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <title>Grid</title> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg </head> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <body> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <div> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <header><p>Header</p></header> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <nav><p>Menu</p></nav> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <section><p>Hero</p></section> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <main><p>Main</p></main> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <aside><p>Image</p></aside> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <aside><p>Extra</p></aside> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg <footer><p>Banner</p></footer> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg </div> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg </body> was delete in file E:\Project.html
+2021-10-20 11:42:28.1788 | TRACE | ParsingHTML.Program | Teg </html> was delete in file E:\Project.html
+2021-10-20 11:42:45.8756 | TRACE | ParsingHTML.Program | Teg <!DOCTYPE html> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <html lang="en"> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <head> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <meta charset="UTF-8"> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <meta name="viewport" content="width=device-width, initial-scale=1.0"> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <link rel="stylesheet" href="./Style.css"> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <title>Grid</title> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg </head> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <body> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <div> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <header><p>Header</p></header> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <nav><p>Menu</p></nav> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <section><p>Hero</p></section> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <main><p>Main</p></main> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <aside><p>Image</p></aside> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <aside><p>Extra</p></aside> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg <footer><p>Banner</p></footer> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg </div> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg </body> was delete in file E:\Project.html
+2021-10-20 11:42:45.8960 | TRACE | ParsingHTML.Program | Teg </html> was delete in file E:\Project.html
+2021-10-20 11:48:26.7726 | TRACE | ParsingHTML.Program | Teg <head> was delete in file E:\Project.html
+2021-10-20 11:57:07.8752 | TRACE | ParsingHTML.Program | Teg <head> was delete in file E:\Project.html
+2021-10-20 11:57:09.2951 | TRACE | ParsingHTML.Program | Teg </head> was delete in file E:\Project.html
+2021-10-20 12:00:05.3126 | TRACE | ParsingHTML.Program | Teg <head> was delete in file E:\Project.html
+2021-10-20 12:00:05.3332 | TRACE | ParsingHTML.Program | Teg </head> was delete in file E:\Project.html
+2021-10-20 12:05:17.9260 | TRACE | ParsingHTML.Program | Teg <div> was delete in file E:\Project.html
+2021-10-20 12:05:17.9461 | TRACE | ParsingHTML.Program | Teg </div> was delete in file E:\Project.html
+2021-10-20 12:05:24.3689 | TRACE | ParsingHTML.Program | Html was writed in E:\\ProjectCoppy.html
