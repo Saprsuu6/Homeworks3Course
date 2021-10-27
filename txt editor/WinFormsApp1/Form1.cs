@@ -74,6 +74,8 @@ namespace WinFormsApp1
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form1_FormClosing(sender, e as FormClosingEventArgs);
+
             if (OpenFile.ShowDialog() == DialogResult.OK)
             {
                 string filePath = OpenFile.FileName;
@@ -81,7 +83,7 @@ namespace WinFormsApp1
                 using (StreamReader reader = new StreamReader(filePath))
                     TextBox.Text = reader.ReadToEnd();
 
-                Text = "* " + filePath;
+                Text = "*" + filePath;
             }
         }
 
@@ -146,14 +148,16 @@ namespace WinFormsApp1
 
         private void TextBox_TextChanged(object sender, EventArgs e)
         {
+            toolStripStatusAmoutLetters.Text = "Amount simbols: " + TextBox.Text.Length;
+
             if (TextBox.Text.Length > 0)
                 sellectAllToolStripMenuItem.Enabled = true;
             else
                 sellectAllToolStripMenuItem.Enabled = false;
 
             changed = true;
-            if (!Text.Contains("* "))
-                Text = Text.Insert(0, "* ");
+            if (!Text.Contains("*"))
+                Text = Text.Insert(0, "*");
         }
 
         private void leftToolStripMenuItem_Click(object sender, EventArgs e)

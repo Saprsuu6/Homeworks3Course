@@ -29,6 +29,7 @@ namespace PersonInfo
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Persons));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,9 +51,25 @@ namespace PersonInfo
             this.Patronimic = new System.Windows.Forms.TextBox();
             this.Save = new System.Windows.Forms.Button();
             this.List = new System.Windows.Forms.ListBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.fontToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundColorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.Remove = new System.Windows.Forms.Button();
+            this.Edit = new System.Windows.Forms.Button();
+            this.Tools = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.FontDialog = new System.Windows.Forms.FontDialog();
+            this.ColorDialog = new System.Windows.Forms.ColorDialog();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
+            this.Tools.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -243,13 +260,45 @@ namespace PersonInfo
             // 
             // List
             // 
+            this.List.ContextMenuStrip = this.contextMenuStrip1;
             this.List.FormattingEnabled = true;
+            this.List.HorizontalScrollbar = true;
             this.List.ItemHeight = 15;
             this.List.Location = new System.Drawing.Point(298, 10);
             this.List.Name = "List";
             this.List.Size = new System.Drawing.Size(167, 274);
             this.List.TabIndex = 20;
             this.List.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fontToolStripMenuItem1,
+            this.fontColorToolStripMenuItem,
+            this.backgroundColorToolStripMenuItem1});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(169, 70);
+            // 
+            // fontToolStripMenuItem1
+            // 
+            this.fontToolStripMenuItem1.Name = "fontToolStripMenuItem1";
+            this.fontToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
+            this.fontToolStripMenuItem1.Text = "Font";
+            this.fontToolStripMenuItem1.Click += new System.EventHandler(this.fontToolStripMenuItem1_Click);
+            // 
+            // fontColorToolStripMenuItem
+            // 
+            this.fontColorToolStripMenuItem.Name = "fontColorToolStripMenuItem";
+            this.fontColorToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.fontColorToolStripMenuItem.Text = "Font color";
+            this.fontColorToolStripMenuItem.Click += new System.EventHandler(this.fontColorToolStripMenuItem_Click);
+            // 
+            // backgroundColorToolStripMenuItem1
+            // 
+            this.backgroundColorToolStripMenuItem1.Name = "backgroundColorToolStripMenuItem1";
+            this.backgroundColorToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
+            this.backgroundColorToolStripMenuItem1.Text = "Background color";
+            this.backgroundColorToolStripMenuItem1.Click += new System.EventHandler(this.backgroundColorToolStripMenuItem1_Click);
             // 
             // Remove
             // 
@@ -259,7 +308,7 @@ namespace PersonInfo
             this.Remove.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkRed;
             this.Remove.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.Remove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Remove.Location = new System.Drawing.Point(7, 290);
+            this.Remove.Location = new System.Drawing.Point(7, 319);
             this.Remove.Name = "Remove";
             this.Remove.Size = new System.Drawing.Size(458, 23);
             this.Remove.TabIndex = 21;
@@ -267,12 +316,94 @@ namespace PersonInfo
             this.Remove.UseVisualStyleBackColor = false;
             this.Remove.Click += new System.EventHandler(this.Remove_Click);
             // 
+            // Edit
+            // 
+            this.Edit.BackColor = System.Drawing.Color.Cyan;
+            this.Edit.Enabled = false;
+            this.Edit.FlatAppearance.BorderSize = 0;
+            this.Edit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSeaGreen;
+            this.Edit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Turquoise;
+            this.Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Edit.Location = new System.Drawing.Point(7, 290);
+            this.Edit.Name = "Edit";
+            this.Edit.Size = new System.Drawing.Size(458, 23);
+            this.Edit.TabIndex = 22;
+            this.Edit.Text = "Изменить";
+            this.Edit.UseVisualStyleBackColor = false;
+            this.Edit.Click += new System.EventHandler(this.Edit_Click);
+            // 
+            // Tools
+            // 
+            this.Tools.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Tools.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.Tools.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1,
+            this.toolStripSeparator1,
+            this.toolStripSplitButton1});
+            this.Tools.Location = new System.Drawing.Point(471, 0);
+            this.Tools.Name = "Tools";
+            this.Tools.Size = new System.Drawing.Size(33, 349);
+            this.Tools.TabIndex = 23;
+            this.Tools.Text = "toolStrip1";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Enabled = false;
+            this.toolStripButton1.Image = global::PersonInfo.Properties.Resources.Save_37110;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(30, 20);
+            this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(30, 6);
+            // 
+            // toolStripSplitButton1
+            // 
+            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fontToolStripMenuItem,
+            this.colourToolStripMenuItem,
+            this.backgroundColorToolStripMenuItem});
+            this.toolStripSplitButton1.Image = global::PersonInfo.Properties.Resources.settings_78352__1_;
+            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(30, 20);
+            this.toolStripSplitButton1.Text = "toolStripSplitButton1";
+            // 
+            // fontToolStripMenuItem
+            // 
+            this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.fontToolStripMenuItem.Text = "Font";
+            this.fontToolStripMenuItem.Click += new System.EventHandler(this.fontToolStripMenuItem_Click);
+            // 
+            // colourToolStripMenuItem
+            // 
+            this.colourToolStripMenuItem.Name = "colourToolStripMenuItem";
+            this.colourToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.colourToolStripMenuItem.Text = "Font color";
+            this.colourToolStripMenuItem.Click += new System.EventHandler(this.colourToolStripMenuItem_Click_1);
+            // 
+            // backgroundColorToolStripMenuItem
+            // 
+            this.backgroundColorToolStripMenuItem.Name = "backgroundColorToolStripMenuItem";
+            this.backgroundColorToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.backgroundColorToolStripMenuItem.Text = "Background color";
+            this.backgroundColorToolStripMenuItem.Click += new System.EventHandler(this.colourToolStripMenuItem_Click);
+            // 
             // Persons
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(472, 322);
+            this.ClientSize = new System.Drawing.Size(504, 349);
+            this.Controls.Add(this.Tools);
+            this.Controls.Add(this.Edit);
             this.Controls.Add(this.Remove);
             this.Controls.Add(this.List);
             this.Controls.Add(this.Save);
@@ -298,6 +429,9 @@ namespace PersonInfo
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.Tools.ResumeLayout(false);
+            this.Tools.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,7 +459,21 @@ namespace PersonInfo
         private System.Windows.Forms.TextBox Patronimic;
         private System.Windows.Forms.Button Save;
         private System.Windows.Forms.Button Remove;
-        public System.Windows.Forms.ListBox List;
+        private System.Windows.Forms.Button Edit;
+        private System.Windows.Forms.ToolStrip Tools;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
+        private System.Windows.Forms.ToolStripMenuItem fontToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem colourToolStripMenuItem;
+        private System.Windows.Forms.FontDialog FontDialog;
+        private System.Windows.Forms.ToolStripMenuItem backgroundColorToolStripMenuItem;
+        private System.Windows.Forms.ColorDialog ColorDialog;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fontToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem fontColorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backgroundColorToolStripMenuItem1;
+        private System.Windows.Forms.ListBox List;
     }
 }
 

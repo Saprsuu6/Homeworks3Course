@@ -22,6 +22,9 @@ namespace PersonInfo
             WorkWithFile.ReadingXml(people, this);
         }
 
+        public ListBox listBox { get => List; set => List = value; }
+        public ToolStripButton Button { get => toolStripButton1; set => toolStripButton1 = value; }
+
         private void Check()
         {
             if (PersonName.Text != "" && Surname.Text != "" && Patronimic.Text != "")
@@ -70,13 +73,9 @@ namespace PersonInfo
                 Clear();
             }
 
-            List.Items.Add(person.Surname + " " + person.Name + " " + person.Patronimic);
-
-            WorkWithFile.WriteToFileXml(person);
-            WorkWithFile.WriteToFileTxt(person);
-
-            MessageBox.Show("Информация успешно сохранена", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Clear();
+            string fio = person.Surname + " " + person.Name + " " + person.Patronimic;
+            List.Items.Add(fio.ToLower());
+            toolStripButton1.Enabled = true;
         }
 
         private void List_SelectedIndexChanged(object sender, EventArgs e)
@@ -84,23 +83,7 @@ namespace PersonInfo
             if (List.SelectedItem != null)
             {
                 Remove.Enabled = true;
-
-                int index = List.SelectedIndex;
-                Person person = people[index];
-
-                PersonName.Text = person.Name;
-                Surname.Text = person.Surname;
-                Patronimic.Text = person.Patronimic;
-                if (person.Sex == "Мужчина")
-                    Мужчина.Checked = true;
-                else if (person.Sex == "Женщина")
-                    Женщина.Checked = true;
-                Birthday.Value = person.Birthday;
-                if (person.FamalyStatus == "Без семьи")
-                    БезСемьи.Checked = true;
-                else if (person.FamalyStatus == "Есть семья")
-                    ЕстьСемья.Checked = true;
-                Info.Text = person.Info;
+                Edit.Enabled = true;
             }
         }
 
@@ -113,6 +96,7 @@ namespace PersonInfo
                 if (dialogResult == DialogResult.Yes)
                 {
                     int index = List.SelectedIndex;
+                    WorkWithFile.DeletePerson(List.SelectedItem.ToString());
                     people.RemoveAt(index);
                     List.Items.RemoveAt(index);
 
@@ -135,6 +119,79 @@ namespace PersonInfo
         private void Patronimic_TextChanged(object sender, EventArgs e)
         {
             Check();
+        }
+
+        private void Edit_Click(object sender, EventArgs e)
+        {
+            int index = List.SelectedIndex;
+            Edit edit = new Edit(people[index], people, index);
+            edit.Owner = this;
+            edit.ShowDialog();
+
+            WorkWithFile.DeletePerson(List.SelectedItem.ToString());
+            string fio = people[index].Surname + " " + people[index].Name + " " + people[index].Patronimic;
+            List.Items[index] = fio.ToLower();
+            Clear();
+        }
+
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (FontDialog.ShowDialog() == DialogResult.OK)
+            {
+                Surname.Font = FontDialog.Font;
+                PersonName.Font = FontDialog.Font;
+                Patronimic.Font = FontDialog.Font;
+                Birthday.Font = FontDialog.Font;
+                Info.Font = FontDialog.Font;
+            }
+        }
+
+        private void colourToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ColorDialog.ShowDialog() == DialogResult.OK)
+                BackColor = ColorDialog.Color;
+        }
+
+        private void colourToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            if (ColorDialog.ShowDialog() == DialogResult.OK)
+            {
+                Surname.ForeColor = ColorDialog.Color;
+                PersonName.ForeColor = ColorDialog.Color;
+                Patronimic.ForeColor = ColorDialog.Color;
+                Birthday.ForeColor = ColorDialog.Color;
+                Info.ForeColor = ColorDialog.Color;
+            }
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            foreach (Person item in people)
+            {
+                WorkWithFile.WriteToFileXml(item);
+                WorkWithFile.WriteToFileTxt(item);
+            }
+
+            MessageBox.Show("Информация успешно сохранена", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Clear();
+        }
+
+        private void fontToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (FontDialog.ShowDialog() == DialogResult.OK)
+                List.Font = FontDialog.Font;
+        }
+
+        private void fontColorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ColorDialog.ShowDialog() == DialogResult.OK)
+                List.ForeColor = ColorDialog.Color;
+        }
+
+        private void backgroundColorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (ColorDialog.ShowDialog() == DialogResult.OK)
+                List.BackColor = ColorDialog.Color;
         }
     }
 }

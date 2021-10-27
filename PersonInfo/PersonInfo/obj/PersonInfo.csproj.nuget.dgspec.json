@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coffe\\Desktop\\PersonInfo\\PersonInfo\\PersonInfo.csproj": {}
+    "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\PersonInfo\\PersonInfo\\PersonInfo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coffe\\Desktop\\PersonInfo\\PersonInfo\\PersonInfo.csproj": {
+    "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\PersonInfo\\PersonInfo\\PersonInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coffe\\Desktop\\PersonInfo\\PersonInfo\\PersonInfo.csproj",
+        "projectUniqueName": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\PersonInfo\\PersonInfo\\PersonInfo.csproj",
         "projectName": "PersonInfo",
-        "projectPath": "C:\\Users\\coffe\\Desktop\\PersonInfo\\PersonInfo\\PersonInfo.csproj",
+        "projectPath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\PersonInfo\\PersonInfo\\PersonInfo.csproj",
         "packagesPath": "C:\\Users\\coffe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coffe\\Desktop\\PersonInfo\\PersonInfo\\obj\\",
+        "outputPath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\PersonInfo\\PersonInfo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

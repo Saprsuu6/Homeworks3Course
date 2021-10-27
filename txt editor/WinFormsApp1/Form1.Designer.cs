@@ -84,9 +84,13 @@ namespace WinFormsApp1
             this.leftToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.centerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusAmoutLetters = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusCursorPosition = new System.Windows.Forms.ToolStripStatusLabel();
             this.ContextMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // TextBox
@@ -96,8 +100,10 @@ namespace WinFormsApp1
             this.TextBox.Location = new System.Drawing.Point(0, 48);
             this.TextBox.Multiline = true;
             this.TextBox.Name = "TextBox";
-            this.TextBox.Size = new System.Drawing.Size(565, 364);
+            this.TextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.TextBox.Size = new System.Drawing.Size(562, 334);
             this.TextBox.TabIndex = 0;
+            this.TextBox.WordWrap = false;
             this.TextBox.TextChanged += new System.EventHandler(this.TextBox_TextChanged);
             this.TextBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TextBox_MouseMove);
             // 
@@ -152,7 +158,7 @@ namespace WinFormsApp1
             this.sttingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(565, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(562, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -170,28 +176,28 @@ namespace WinFormsApp1
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.openToolStripMenuItem.Text = "Open...";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.closeToolStripMenuItem.Text = "Save";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.saveAsToolStripMenuItem.Text = "Save as...";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // newDocumentToolStripMenuItem
             // 
             this.newDocumentToolStripMenuItem.Name = "newDocumentToolStripMenuItem";
-            this.newDocumentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newDocumentToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.newDocumentToolStripMenuItem.Text = "New document";
             this.newDocumentToolStripMenuItem.Click += new System.EventHandler(this.newDocumentToolStripMenuItem_Click);
             // 
@@ -343,7 +349,7 @@ namespace WinFormsApp1
             this.toolStripSplitButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(565, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(562, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -522,11 +528,36 @@ namespace WinFormsApp1
             this.centerToolStripMenuItem.Text = "Center";
             this.centerToolStripMenuItem.Click += new System.EventHandler(this.centerToolStripMenuItem_Click);
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.Color.Bisque;
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusAmoutLetters,
+            this.toolStripStatusCursorPosition});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 385);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(562, 22);
+            this.statusStrip1.TabIndex = 3;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusAmoutLetters
+            // 
+            this.toolStripStatusAmoutLetters.Name = "toolStripStatusAmoutLetters";
+            this.toolStripStatusAmoutLetters.Size = new System.Drawing.Size(107, 17);
+            this.toolStripStatusAmoutLetters.Text = "Amount simbols: 0";
+            // 
+            // toolStripStatusCursorPosition
+            // 
+            this.toolStripStatusCursorPosition.Name = "toolStripStatusCursorPosition";
+            this.toolStripStatusCursorPosition.Size = new System.Drawing.Size(100, 17);
+            this.toolStripStatusCursorPosition.Text = "Line: 1, column: 1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(565, 407);
+            this.ClientSize = new System.Drawing.Size(562, 407);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.TextBox);
             this.Controls.Add(this.menuStrip1);
@@ -541,6 +572,8 @@ namespace WinFormsApp1
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -601,6 +634,9 @@ namespace WinFormsApp1
         private System.Windows.Forms.ToolStripMenuItem leftToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem rightToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem centerToolStripMenuItem1;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusAmoutLetters;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusCursorPosition;
     }
 }
 

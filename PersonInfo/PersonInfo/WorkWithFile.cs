@@ -13,6 +13,17 @@ namespace PersonInfo
     {
         static private string path = @"..\..\..\PersonInfo\";
 
+        static public void DeletePerson(string fio)
+        {
+            FileInfo[] fileInfos = FindDirictory();
+
+            foreach (var item in fileInfos)
+            {
+                if (item.Name == fio + ".txt" || item.Name == fio + ".xml")
+                    item.Delete();
+            }
+        }
+
         static private FileInfo[] FindDirictory()
         {
             DirectoryInfo directoryInfo = new DirectoryInfo(path);
@@ -43,25 +54,26 @@ namespace PersonInfo
                     XmlNode node = xdoc.DocumentElement;
                     XmlAttributeCollection xmlAttributeCollection = node.Attributes;
                     foreach (XmlAttribute attribute in xmlAttributeCollection)
-                        info += attribute.Value + ";";
+                        info += attribute.Value.ToLower() + ";";
 
                     XmlNodeList xmlNodeList = node.ChildNodes;
                     foreach (XmlNode child in xmlNodeList)
-                        info += child.InnerText + ";";
+                        info += child.InnerText.ToLower() + ";";
 
                     string[] correctInfo = info.Split(new[] { ';' });
                     Person person = new Person(correctInfo);
                     people.Add(person);
-                    form.List.Items.Add(person.Surname + " " + person.Name + " " + person.Patronimic);
+                    form.listBox.Items.Add(person.Surname + " " + person.Name + " " + person.Patronimic);
                 }
             }
+
+            form.Button.Enabled = true;
         } 
 
         static public void WriteToFileXml(Person person)
         {
-            string newPath = path + person.Name + " " 
-                + person.Surname + " " +
-                person.Patronimic + ".xml";
+            string fio = person.Surname + " " + person.Name + " " + person.Patronimic;
+            string newPath = path + fio.ToLower() + ".xml";
 
             using (XmlTextWriter xmlwriter = new XmlTextWriter(newPath, Encoding.UTF8))
             {
@@ -108,9 +120,8 @@ namespace PersonInfo
 
         static public void WriteToFileTxt(Person person)
         {
-            string newPath = path + person.Name + " "
-                + person.Surname + " " +
-                person.Patronimic + ".txt";
+            string fio = person.Surname + " " + person.Name + " " + person.Patronimic;
+            string newPath = path + fio.ToLower() + ".txt";
 
             using (StreamWriter txtWriter = new StreamWriter(newPath, false))
             {
