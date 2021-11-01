@@ -1,9 +1,0 @@
-Name: sd
-Surname: asd
-Patronimic: sd
-Sex: 
-Birthday:
-	Year: 2021
-	Month: 10
-	Day: 27
-Info: 

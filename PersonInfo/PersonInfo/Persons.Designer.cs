@@ -43,11 +43,11 @@ namespace PersonInfo
             this.PersonName = new System.Windows.Forms.TextBox();
             this.Birthday = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Женщина = new System.Windows.Forms.RadioButton();
-            this.Мужчина = new System.Windows.Forms.RadioButton();
+            this.Woman = new System.Windows.Forms.RadioButton();
+            this.Men = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.ЕстьСемья = new System.Windows.Forms.RadioButton();
-            this.БезСемьи = new System.Windows.Forms.RadioButton();
+            this.WithFamily = new System.Windows.Forms.RadioButton();
+            this.WithooutFamily = new System.Windows.Forms.RadioButton();
             this.Patronimic = new System.Windows.Forms.TextBox();
             this.Save = new System.Windows.Forms.Button();
             this.List = new System.Windows.Forms.ListBox();
@@ -171,67 +171,67 @@ namespace PersonInfo
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.Женщина);
-            this.groupBox1.Controls.Add(this.Мужчина);
+            this.groupBox1.Controls.Add(this.Woman);
+            this.groupBox1.Controls.Add(this.Men);
             this.groupBox1.Location = new System.Drawing.Point(116, 72);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(176, 35);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             // 
-            // Женщина
+            // Woman
             // 
-            this.Женщина.AutoSize = true;
-            this.Женщина.Location = new System.Drawing.Point(90, 11);
-            this.Женщина.Name = "Женщина";
-            this.Женщина.Size = new System.Drawing.Size(80, 19);
-            this.Женщина.TabIndex = 1;
-            this.Женщина.TabStop = true;
-            this.Женщина.Text = "Женщина";
-            this.Женщина.UseVisualStyleBackColor = true;
+            this.Woman.AutoSize = true;
+            this.Woman.Location = new System.Drawing.Point(90, 11);
+            this.Woman.Name = "Woman";
+            this.Woman.Size = new System.Drawing.Size(80, 19);
+            this.Woman.TabIndex = 1;
+            this.Woman.TabStop = true;
+            this.Woman.Text = "Женщина";
+            this.Woman.UseVisualStyleBackColor = true;
             // 
-            // Мужчина
+            // Men
             // 
-            this.Мужчина.AutoSize = true;
-            this.Мужчина.Location = new System.Drawing.Point(6, 11);
-            this.Мужчина.Name = "Мужчина";
-            this.Мужчина.Size = new System.Drawing.Size(78, 19);
-            this.Мужчина.TabIndex = 0;
-            this.Мужчина.TabStop = true;
-            this.Мужчина.Text = "Мужчина";
-            this.Мужчина.UseVisualStyleBackColor = true;
+            this.Men.AutoSize = true;
+            this.Men.Location = new System.Drawing.Point(6, 11);
+            this.Men.Name = "Men";
+            this.Men.Size = new System.Drawing.Size(78, 19);
+            this.Men.TabIndex = 0;
+            this.Men.TabStop = true;
+            this.Men.Text = "Мужчина";
+            this.Men.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.ЕстьСемья);
-            this.groupBox2.Controls.Add(this.БезСемьи);
+            this.groupBox2.Controls.Add(this.WithFamily);
+            this.groupBox2.Controls.Add(this.WithooutFamily);
             this.groupBox2.Location = new System.Drawing.Point(116, 136);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(176, 35);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             // 
-            // ЕстьСемья
+            // WithFamily
             // 
-            this.ЕстьСемья.AutoSize = true;
-            this.ЕстьСемья.Location = new System.Drawing.Point(91, 12);
-            this.ЕстьСемья.Name = "ЕстьСемья";
-            this.ЕстьСемья.Size = new System.Drawing.Size(84, 19);
-            this.ЕстьСемья.TabIndex = 1;
-            this.ЕстьСемья.TabStop = true;
-            this.ЕстьСемья.Text = "Есть семья";
-            this.ЕстьСемья.UseVisualStyleBackColor = true;
+            this.WithFamily.AutoSize = true;
+            this.WithFamily.Location = new System.Drawing.Point(91, 12);
+            this.WithFamily.Name = "WithFamily";
+            this.WithFamily.Size = new System.Drawing.Size(84, 19);
+            this.WithFamily.TabIndex = 1;
+            this.WithFamily.TabStop = true;
+            this.WithFamily.Text = "Есть семья";
+            this.WithFamily.UseVisualStyleBackColor = true;
             // 
-            // БезСемьи
+            // WithooutFamily
             // 
-            this.БезСемьи.AutoSize = true;
-            this.БезСемьи.Location = new System.Drawing.Point(6, 12);
-            this.БезСемьи.Name = "БезСемьи";
-            this.БезСемьи.Size = new System.Drawing.Size(80, 19);
-            this.БезСемьи.TabIndex = 0;
-            this.БезСемьи.TabStop = true;
-            this.БезСемьи.Text = "Без семьи";
-            this.БезСемьи.UseVisualStyleBackColor = true;
+            this.WithooutFamily.AutoSize = true;
+            this.WithooutFamily.Location = new System.Drawing.Point(6, 12);
+            this.WithooutFamily.Name = "WithooutFamily";
+            this.WithooutFamily.Size = new System.Drawing.Size(80, 19);
+            this.WithooutFamily.TabIndex = 0;
+            this.WithooutFamily.TabStop = true;
+            this.WithooutFamily.Text = "Без семьи";
+            this.WithooutFamily.UseVisualStyleBackColor = true;
             // 
             // Patronimic
             // 
@@ -451,11 +451,11 @@ namespace PersonInfo
         private System.Windows.Forms.TextBox PersonName;
         private System.Windows.Forms.DateTimePicker Birthday;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton Женщина;
-        private System.Windows.Forms.RadioButton Мужчина;
+        private System.Windows.Forms.RadioButton Woman;
+        private System.Windows.Forms.RadioButton Men;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton ЕстьСемья;
-        private System.Windows.Forms.RadioButton БезСемьи;
+        private System.Windows.Forms.RadioButton WithFamily;
+        private System.Windows.Forms.RadioButton WithooutFamily;
         private System.Windows.Forms.TextBox Patronimic;
         private System.Windows.Forms.Button Save;
         private System.Windows.Forms.Button Remove;

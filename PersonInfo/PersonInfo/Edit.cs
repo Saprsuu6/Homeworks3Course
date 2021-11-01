@@ -10,22 +10,23 @@ using System.Windows.Forms;
 
 namespace PersonInfo
 {
-    public partial class Edit : Form
+    public partial class Edit : Form, IViewEdit
     {
-        private List<Person> people;
-        private Person person;
-        private string sex;
-        private string famalyState;
-        private int index;
+        public event EventHandler<EventArgs> dataSaveEdit;
+
+        public string GetSetSurname { set => Surname.Text = value; get => Surname.Text; }
+        public string GetSetName { set => PersonName.Text = value; get => PersonName.Text; }
+        public string GetSetPatronimic { set => Patronimic.Text = value; get => Patronimic.Text; }
+        public bool GetSetMen { set => Man.Checked = value; get => Man.Checked; }
+        public bool GetSetWomen { set => Woman.Checked = value; get => Woman.Checked; }
+        public DateTime GetSetBirthday { set => Birthday.Value = value; get => Birthday.Value; }
+        public bool GetSetStatusWithFamaly { set => WithoutFamily.Checked = value; get => WithoutFamily.Checked; }
+        public bool GetSetStatusWithoutFamaly { set => WithFamily.Checked = value; get => WithFamily.Checked; }
+        public string GetSetInfo { set => Info.Text = value; get => Info.Text; }
 
         internal Edit(Person person, List<Person> people, int index)
         {
             InitializeComponent();
-            this.person = person;
-            this.people = people;
-            this.index = index;
-
-            FillInfo();
         }
 
         private void Check()
@@ -34,23 +35,6 @@ namespace PersonInfo
                 Save.Enabled = true;
             else
                 Save.Enabled = false;
-        }
-
-        private void FillInfo()
-        {
-            PersonName.Text = person.Name.ToLower();
-            Surname.Text = person.Surname.ToLower();
-            Patronimic.Text = person.Patronimic.ToLower();
-            if (person.Sex == "мужчина")
-                Мужчина.Checked = true;
-            else if (person.Sex == "женщина")
-                Женщина.Checked = true;
-            Birthday.Value = person.Birthday;
-            if (person.FamalyStatus == "без семьи")
-                БезСемьи.Checked = true;
-            else if (person.FamalyStatus == "eсть семья")
-                ЕстьСемья.Checked = true;
-            Info.Text = person.Info.ToLower();
         }
 
         private void Surname_TextChanged(object sender, EventArgs e)
@@ -70,22 +54,7 @@ namespace PersonInfo
 
         private void Save_Click(object sender, EventArgs e)
         {
-            if (Мужчина.Checked)
-                sex = "Мужчина";
-            else if (Женщина.Checked)
-                sex = "Женщина";
-
-            if (БезСемьи.Checked)
-                famalyState = "Без семьи";
-            else if (ЕстьСемья.Checked)
-                famalyState = "Есть семья";
-
-            DateTime birthday = new DateTime(Birthday.Value.Year, Birthday.Value.Month, Birthday.Value.Day);
-            Person person = new Person(PersonName.Text, Surname.Text, Patronimic.Text,
-                sex, birthday, famalyState, Info.Text);
-            people[index] = person;
-
-            string fio = person.Surname + " " + person.Name + " " + person.Patronimic;
+            dataSaveEdit?.Invoke(this, EventArgs.Empty);
             Close();
         }
     }

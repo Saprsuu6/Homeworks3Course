@@ -10,20 +10,31 @@ using System.Windows.Forms;
 
 namespace PersonInfo
 {
-    public partial class Persons : Form
+    public partial class Persons : Form, IViewAdd
     {
-        private List<Person> people = new List<Person>();
-        private string sex;
-        private string famalyState;
+        public event EventHandler<EventArgs> dataSave;
+        public event EventHandler<EventArgs> dataRemove;
+        public event EventHandler<EventArgs> dataSaveInFile;
+        public event EventHandler<EventArgs> dataEdit;
 
         public Persons()
         { 
             InitializeComponent();
-            WorkWithFile.ReadingXml(people, this);
+            Presenter presenter = new Presenter(this);
         }
 
-        public ListBox listBox { get => List; set => List = value; }
-        public ToolStripButton Button { get => toolStripButton1; set => toolStripButton1 = value; }
+        public Button GetRemove { get => Remove; }
+        public ListBox listBox { get => List; }
+        public ToolStripButton Button { get => toolStripButton1; }
+        public string GetSetSurname { set => Surname.Text = value; get => Surname.Text; }
+        public string GetSetName { set => PersonName.Text = value; get => PersonName.Text; }
+        public string GetSetPatronimic { set => Patronimic.Text = value; get => Patronimic.Text; }
+        public bool GetSetMen { set => Men.Checked = value; get => Men.Checked; }
+        public bool GetSetWomen { set => Woman.Checked = value; get => Woman.Checked; }
+        public DateTime GetSetBirthday { set => Birthday.Value = value; get => Birthday.Value; }
+        public bool GetSetStatusWithFamaly { set => WithooutFamily.Checked = value; get => WithooutFamily.Checked; }
+        public bool GetSetStatusWithoutFamaly { set => WithFamily.Checked = value; get => WithFamily.Checked; }
+        public string GetSetInfo { set => Info.Text = value; get => Info.Text; }
 
         private void Check()
         {
@@ -38,44 +49,19 @@ namespace PersonInfo
             PersonName.Text = "";
             Surname.Text = "";
             Patronimic.Text = "";
-            Мужчина.Checked = false;
-            Женщина.Checked = false;
+            Men.Checked = false;
+            Woman.Checked = false;
             Birthday.Refresh();
-            БезСемьи.Checked = false;
-            ЕстьСемья.Checked = false;
+            WithooutFamily.Checked = false;
+            WithFamily.Checked = false;
             Info.Text = "";
         }
 
         private void Save_Click(object sender, EventArgs e)
         {
-            if (Мужчина.Checked)
-                sex = "Мужчина";
-            else if (Женщина.Checked)
-                sex = "Женщина";
+            dataSave?.Invoke(this, EventArgs.Empty);
 
-            if (БезСемьи.Checked)
-                famalyState = "Без семьи";
-            else if (ЕстьСемья.Checked)
-                famalyState = "Есть семья";
-
-            DateTime birthday = new DateTime(Birthday.Value.Year, Birthday.Value.Month, Birthday.Value.Day);
-            Person person = new Person(PersonName.Text, Surname.Text, Patronimic.Text,
-                sex, birthday, famalyState, Info.Text);
-            people.Add(person);
-
-            if (List.SelectedItem != null)
-            {
-                int index = List.SelectedIndex;
-                people.RemoveAt(index);
-                List.Items.RemoveAt(index);
-
-                Remove.Enabled = false;
-                Clear();
-            }
-
-            string fio = person.Surname + " " + person.Name + " " + person.Patronimic;
-            List.Items.Add(fio.ToLower());
-            toolStripButton1.Enabled = true;
+            Clear();
         }
 
         private void List_SelectedIndexChanged(object sender, EventArgs e)
@@ -94,16 +80,10 @@ namespace PersonInfo
                 DialogResult dialogResult = MessageBox.Show("Вы хотите удалить?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (dialogResult == DialogResult.Yes)
-                {
-                    int index = List.SelectedIndex;
-                    WorkWithFile.DeletePerson(List.SelectedItem.ToString());
-                    people.RemoveAt(index);
-                    List.Items.RemoveAt(index);
-
-                    Remove.Enabled = false;
-                    Clear();
-                }
+                    dataRemove?.Invoke(this, EventArgs.Empty);
             }
+
+            Clear();
         }
 
         private void Surname_TextChanged(object sender, EventArgs e)
@@ -123,14 +103,7 @@ namespace PersonInfo
 
         private void Edit_Click(object sender, EventArgs e)
         {
-            int index = List.SelectedIndex;
-            Edit edit = new Edit(people[index], people, index);
-            edit.Owner = this;
-            edit.ShowDialog();
-
-            WorkWithFile.DeletePerson(List.SelectedItem.ToString());
-            string fio = people[index].Surname + " " + people[index].Name + " " + people[index].Patronimic;
-            List.Items[index] = fio.ToLower();
+            dataEdit?.Invoke(this, EventArgs.Empty);
             Clear();
         }
 
@@ -166,11 +139,7 @@ namespace PersonInfo
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            foreach (Person item in people)
-            {
-                WorkWithFile.WriteToFileXml(item);
-                WorkWithFile.WriteToFileTxt(item);
-            }
+            dataSaveInFile?.Invoke(this, EventArgs.Empty);
 
             MessageBox.Show("Информация успешно сохранена", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Clear();

@@ -33,7 +33,7 @@ namespace PersonInfo
             return directoryInfo.GetFiles();
         }
 
-        static public void ReadingXml(List<Person> people, Persons form)
+        static public void ReadingXml(List<Person> people)
         {
             FileInfo[] fileInfos = FindDirictory();
 
@@ -63,11 +63,8 @@ namespace PersonInfo
                     string[] correctInfo = info.Split(new[] { ';' });
                     Person person = new Person(correctInfo);
                     people.Add(person);
-                    form.listBox.Items.Add(person.Surname + " " + person.Name + " " + person.Patronimic);
                 }
             }
-
-            form.Button.Enabled = true;
         } 
 
         static public void WriteToFileXml(Person person)
