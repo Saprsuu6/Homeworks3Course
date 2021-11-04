@@ -1,0 +1,35 @@
+﻿<Window x:Class="Buttons.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buttons"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <WrapPanel Margin="0,0,431,0" RenderTransformOrigin="0.5,0.5">
+        <WrapPanel.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform AngleY="0.213"/>
+                <RotateTransform/>
+                <TranslateTransform Y="0.496"/>
+            </TransformGroup>
+        </WrapPanel.RenderTransform>
+        <Button Content="Navy" Height="28" Width="67" Margin="2,2,2,2" Foreground="Navy" FontSize="14"/>
+        <Button Content="Blue" Height="28" Width="67" Margin="2,2,2,2" Foreground="Blue" FontSize="14"/>
+        <Button Content="Aqua" Height="28" Width="67" Margin="2,2,2,2" Foreground="Aqua" FontSize="14"/>
+        <Button Content="Teal" Height="28" Width="67" Margin="2,2,2,2" Foreground="Teal" FontSize="14"/>
+        <Button Content="Olive" Height="28" Width="67" Margin="2,2,2,2" Foreground="Olive" FontSize="14"/>
+        <Button Content="Green" Height="28" Width="67" Margin="2,2,2,2" Foreground="Green"/>
+        <Button Content="Lime" Height="28" Width="67" Margin="2,2,2,2" Foreground="Lime" FontSize="14"/>
+        <Button Content="Yellow" Height="28" Width="67" Margin="2,2,2,2" Foreground="Yellow" FontSize="14"/>
+        <Button Content="Orange" Height="28" Width="67" Margin="2,2,2,2" Foreground="Orange" FontSize="14"/>
+        <Button Content="Red" Height="28" Width="67" Margin="2,2,2,2" Foreground="Red" FontSize="14"/>
+        <Button Content="Fuchsia" Height="28" Width="67" Margin="2,2,2,2" Foreground="Fuchsia" FontSize="14"/>
+        <Button Content="Purple" Height="28" Width="67" Margin="2,2,2,2" Foreground="Purple"/>
+        <Button Content="Black" Height="28" Width="67" Margin="2,2,2,2" Foreground="Black" FontSize="14"/>
+        <Button Content="Silver" Height="28" Width="67" Margin="2,2,2,2" Foreground="Silver" FontSize="14"/>
+        <Button Content="Gray" Height="28" Width="67" Margin="2,2,2,2" Foreground="Gray" FontSize="14"/>
+        <Button Content="White" Height="28" Width="67" Margin="2,2,2,2" Foreground="White" FontSize="14"/>
+    </WrapPanel>
+</Window>
