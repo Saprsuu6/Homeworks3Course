@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="iconfinder-3-avatar-2754579_120516.png" />
+    <None Remove="Save_37110.png" />
+    <None Remove="settings_78352 %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="iconfinder-3-avatar-2754579_120516.png" />
+    <Resource Include="Save_37110.png" />
+    <Resource Include="settings_78352 (1).png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PersonInfo\" />
+  </ItemGroup>
+
+</Project>

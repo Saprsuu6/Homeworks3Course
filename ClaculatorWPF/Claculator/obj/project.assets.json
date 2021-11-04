@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\coffe\\Desktop\\Claculator\\Claculator\\Claculator.csproj",
+      "projectUniqueName": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\ClaculatorWPF\\Claculator\\Claculator.csproj",
       "projectName": "Claculator",
-      "projectPath": "C:\\Users\\coffe\\Desktop\\Claculator\\Claculator\\Claculator.csproj",
+      "projectPath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\ClaculatorWPF\\Claculator\\Claculator.csproj",
       "packagesPath": "C:\\Users\\coffe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\coffe\\Desktop\\Claculator\\Claculator\\obj\\",
+      "outputPath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\ClaculatorWPF\\Claculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
