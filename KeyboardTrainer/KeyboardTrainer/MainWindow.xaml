@@ -1,0 +1,385 @@
+﻿<Window x:Class="KeyboardTrainer.MainWindow"
+        x:ClassModifier="internal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        SizeToContent="WidthAndHeight"
+        Title="Keyboard Trainer"
+        WindowStartupLocation="CenterScreen" Icon="keyboard_5643.png" PreviewKeyDown="Window_PreviewKeyDown" PreviewKeyUp="Window_PreviewKeyUp">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="214*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                <TextBlock FontSize="15" Text="Speed: "/>
+                <TextBlock FontSize="15" FontWeight="Bold" Text="0" Name="SpeedChar"/>
+                <TextBlock FontSize="15" Text=" chars/min"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                <TextBlock FontSize="15" Text="Fails: "/>
+                <TextBlock FontSize="15" FontWeight="Bold" Text="0" Name="Fails"/>
+            </StackPanel>
+            <Grid Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Horizontal">
+                    <TextBlock FontSize="15" Text="Difficulty: "/>
+                    <TextBlock FontSize="15" FontWeight="Bold" Text="0" Name="Difficulty"/>
+                </StackPanel>
+                <Slider Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,0,10,0" VerticalAlignment="Center" Name="SliderDifficulty" ValueChanged="SliderDifficulty_ValueChanged"/>
+            </Grid>
+            <Grid Grid.Column="3">
+                <CheckBox FontSize="15" VerticalContentAlignment="Center" Name="CaseSensitive" Checked="CaseSensitive_Checked">Case Sensitive</CheckBox>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" Margin="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Click="Button_Click"  Name="Start">Start</Button>
+                <Button Grid.Column="1" Margin="5,0,0,0" IsEnabled="False" Name="Stop" Click="Stop_Click">Stop</Button>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Margin="2" Grid.ColumnSpan="2">
+            <StackPanel>
+                <TextBox Grid.Row="0" FontSize="21" IsReadOnly="True" Name="linePrograms" Background="Cyan" BorderBrush="#ADD8E6" FontFamily="Roboto"></TextBox>
+                <TextBox Grid.Row="1" FontSize="21" IsReadOnly="True" Name="lineUser" IsEnabled="False" Background="Cyan" BorderBrush="#ADD8E6" FontFamily="Roboto" TextChanged="lineUser_TextChanged"></TextBox>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="3" Grid.ColumnSpan="2">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Oem3">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="`" VerticalAlignment="Center" Name="Oem3txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D1">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="1" VerticalAlignment="Center" Name="D1txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D2">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="2" VerticalAlignment="Center" Name="D2txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFE6F077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D3">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="3" VerticalAlignment="Center" Name="D3txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D4">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="4" VerticalAlignment="Center" Name="D4txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF77BEF0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D5">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="5" VerticalAlignment="Center" Name="D5txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF77BEF0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D6">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="6" VerticalAlignment="Center" Name="D6txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFDB77F0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D7">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="7" VerticalAlignment="Center" Name="D7txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFDB77F0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D8">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="8" VerticalAlignment="Center" Name="D8txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D9">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="9" VerticalAlignment="Center" Name="D9txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFE6F077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D0">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="0" VerticalAlignment="Center" Name="D0txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="OemMinus">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="-" VerticalAlignment="Center" Name="OemMinustxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="OemPlus">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="=" VerticalAlignment="Center"  Name="OemPlustxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="100">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Back">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Backspace" VerticalAlignment="Center" Name="Backtxt"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Grid Height="50" Width="75">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Tab">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Tab" VerticalAlignment="Center" Name="Tabtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Q">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="q" VerticalAlignment="Center" Name="Qtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFE6F077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="W">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="w" VerticalAlignment="Center" Name="Wtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="E">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="e" VerticalAlignment="Center" Name="Etxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF77BEF0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="R">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="r" VerticalAlignment="Center" Name="Rtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF77BEF0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="T">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="t" VerticalAlignment="Center" Name="Ttxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFDB77F0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Y">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="y" VerticalAlignment="Center" Name="Ytxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFDB77F0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="U">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="u" VerticalAlignment="Center" Name="Utxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="I">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="i" VerticalAlignment="Center" Name="Itxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFE6F077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="O">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="o" VerticalAlignment="Center" Name="Otxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="P">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="p" VerticalAlignment="Center" Name="Ptxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="OemOpenBrackets">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="[" VerticalAlignment="Center" Name="OemOpenBracketstxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Oem6">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="]" VerticalAlignment="Center" Name="Oem6txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="75">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Oem5">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="\" VerticalAlignment="Center" Name="Oem5txt"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Grid Height="50" Width="100">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Capital" >
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Caps Lock" VerticalAlignment="Center" Name="Capitaltxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="A">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="a" VerticalAlignment="Center" Name="Atxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFE6F077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="S">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="s" VerticalAlignment="Center" Name="Stxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="D">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="d" VerticalAlignment="Center" Name="Dtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF77BEF0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="F">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="f" VerticalAlignment="Center" Name="Ftxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF77BEF0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="G">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="g" VerticalAlignment="Center" Name="Gtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFDB77F0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="H">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="h" VerticalAlignment="Center" Name="Htxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFDB77F0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="J">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="j" VerticalAlignment="Center" Name="Jtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="K">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="k" VerticalAlignment="Center" Name="Ktxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFE6F077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="L">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="l" VerticalAlignment="Center" Name="Ltxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Oem1" >
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text=";" VerticalAlignment="Center" Name="Oem1txt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="OemQuotes">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="'" VerticalAlignment="Center"  Name="OemQuotestxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="100">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Return">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Enter" VerticalAlignment="Center"  Name="Returntxt"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Grid Height="50" Width="125">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="LeftShift">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Shift" VerticalAlignment="Center" Name="LeftShifttxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Z">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="z" VerticalAlignment="Center"  Name="Ztxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFE6F077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="X">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="x" VerticalAlignment="Center" Name="Xtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="C">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="c" VerticalAlignment="Center" Name="Ctxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF77BEF0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="V">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="v" VerticalAlignment="Center" Name="Vtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF77BEF0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="B">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="b" VerticalAlignment="Center" Name="Btxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFDB77F0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="N">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="n" VerticalAlignment="Center" Name="Ntxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFDB77F0" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="M">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="m" VerticalAlignment="Center" Name="Mtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="OemComma">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="," VerticalAlignment="Center" Name="OemCommatxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FFE6F077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="OemPeriod">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="." VerticalAlignment="Center" Name="OemPeriodtxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="50">
+                        <Border Background="#FF7FF077" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="OemQuestion">
+                            <TextBlock FontSize="30" HorizontalAlignment="Center" Text="/" VerticalAlignment="Center" Name="OemQuestiontxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="125">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="RightShift">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Shift" VerticalAlignment="Center" Name="RightShifttxt"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Grid Height="50" Width="75">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="LeftCtrl">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Ctrl" VerticalAlignment="Center" Name="LeftCtrltxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="75">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="LWin">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Win" VerticalAlignment="Center" Name="LWintxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="75">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="LAlt">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Alt" VerticalAlignment="Center" Name="LAlttxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="294">
+                        <Border Background="#FFE5BB72" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="Space">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Space" VerticalAlignment="Center" Name="Spacetxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="75">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="RAlt">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Alt" VerticalAlignment="Center" Name="RAlttxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="75">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="RWin">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Win" VerticalAlignment="Center" Name="RWintxt"/>
+                        </Border>
+                    </Grid>
+                    <Grid Height="50" Width="75">
+                        <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2" Name="RightCtrl">
+                            <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Ctrl" VerticalAlignment="Center" Name="RightCtrltxt"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

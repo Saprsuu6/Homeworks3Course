@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coffe\\source\\repos\\Millionaire\\Millionaire\\Millionaire.csproj": {}
+    "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\Millionaire\\Millionaire\\Millionaire.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coffe\\source\\repos\\Millionaire\\Millionaire\\Millionaire.csproj": {
+    "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\Millionaire\\Millionaire\\Millionaire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coffe\\source\\repos\\Millionaire\\Millionaire\\Millionaire.csproj",
+        "projectUniqueName": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\Millionaire\\Millionaire\\Millionaire.csproj",
         "projectName": "Millionaire",
-        "projectPath": "C:\\Users\\coffe\\source\\repos\\Millionaire\\Millionaire\\Millionaire.csproj",
+        "projectPath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\Millionaire\\Millionaire\\Millionaire.csproj",
         "packagesPath": "C:\\Users\\coffe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coffe\\source\\repos\\Millionaire\\Millionaire\\obj\\",
+        "outputPath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\Millionaire\\Millionaire\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
