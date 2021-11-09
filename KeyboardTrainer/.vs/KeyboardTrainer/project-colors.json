@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b2eb1181-2966-498a-997f-059b3e0ba9ae": {
+      "ProjectGuid": "b2eb1181-2966-498a-997f-059b3e0ba9ae",
+      "DisplayName": "KeyboardTrainer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

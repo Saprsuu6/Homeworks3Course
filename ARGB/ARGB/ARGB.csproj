@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="RGB_Circle_1-80_icon-icons.com_57282 %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="RGB_Circle_1-80_icon-icons.com_57282 (1).png" />
+  </ItemGroup>
+
+</Project>
