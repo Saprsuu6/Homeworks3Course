@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coffe\\source\\repos\\ARGB\\ARGB\\ARGB.csproj": {}
+    "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\ARGB\\ARGB\\ARGB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coffe\\source\\repos\\ARGB\\ARGB\\ARGB.csproj": {
+    "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\ARGB\\ARGB\\ARGB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coffe\\source\\repos\\ARGB\\ARGB\\ARGB.csproj",
+        "projectUniqueName": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\ARGB\\ARGB\\ARGB.csproj",
         "projectName": "ARGB",
-        "projectPath": "C:\\Users\\coffe\\source\\repos\\ARGB\\ARGB\\ARGB.csproj",
+        "projectPath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\ARGB\\ARGB\\ARGB.csproj",
         "packagesPath": "C:\\Users\\coffe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coffe\\source\\repos\\ARGB\\ARGB\\obj\\",
+        "outputPath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\ARGB\\ARGB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

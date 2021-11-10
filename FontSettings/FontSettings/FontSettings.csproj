@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="browser-11_icon-icons.com_62187.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="browser-11_icon-icons.com_62187.png" />
+  </ItemGroup>
+
+</Project>
