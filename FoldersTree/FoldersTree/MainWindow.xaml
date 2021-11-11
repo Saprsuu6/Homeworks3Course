@@ -1,0 +1,33 @@
+﻿<Window x:Class="FoldersTree.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoldersTree"
+        mc:Ignorable="d"
+        Title="FoldersTree" Height="300" Width="600" WindowStartupLocation="CenterScreen" Icon="/documents_folder_18875.png">
+    <UniformGrid Columns="2">
+        <Grid Margin="5,5,5,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBox TextWrapping="Wrap" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="5,5,5,5" Name="Path"
+                     HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" TextChanged="Path_TextChanged"/>
+            <Button IsEnabled="{Binding ElementName=Path, Path=Text.Length}" Content="Add" Grid.Row="1" Grid.Column="0" Margin="5,5,5,5" Name="Add" Click="Add_Click"/>
+            <Button IsEnabled="{Binding ElementName=Tree, Path=Items.Count}" Content="Clear" Grid.Row="1" Grid.Column="1" Margin="5,5,5,5" Name="Clear" Click="Clear_Click"/>
+            <Button IsEnabled="False" Content="Remove" Grid.Row="1" Grid.Column="2" Margin="5,5,5,5" Name="Remove" Click="Remove_Click"/>
+        </Grid>
+
+        <GroupBox Header="Live view" Margin="5,5,5,5">
+            <TreeView BorderThickness="0" Name="Tree" SelectedItemChanged="Click"/>
+        </GroupBox>
+    </UniformGrid>
+</Window>
