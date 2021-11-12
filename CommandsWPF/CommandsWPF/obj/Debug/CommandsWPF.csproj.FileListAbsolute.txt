@@ -1,0 +1,98 @@
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe.config
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.pdb
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.baml
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\App.g.cs
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF_MarkupCompile.cache
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.g.resources
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.Properties.Resources.resources
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.GenerateResource.Cache
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.exe
+C:\Users\Виталий\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.pdb
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe.config
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.exe
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.pdb
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.pdb
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.baml
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\App.g.cs
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF_MarkupCompile.cache
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.g.resources
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.Properties.Resources.resources
+C:\Users\Виталий\Desktop\Создание привязки XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.GenerateResource.Cache
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe.config
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.exe
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.pdb
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.pdb
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.baml
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\App.g.cs
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF_MarkupCompile.cache
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.g.resources
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.Properties.Resources.resources
+C:\Users\Виталий\Desktop\Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.GenerateResource.Cache
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe.config
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.exe
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.pdb
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.pdb
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.baml
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\App.g.cs
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF_MarkupCompile.cache
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.g.resources
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.Properties.Resources.resources
+C:\Users\Виталий\Desktop\Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.GenerateResource.Cache
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe.config
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.exe
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.pdb
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.pdb
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.baml
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.g.cs
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\App.g.cs
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF_MarkupCompile.cache
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.g.resources
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.Properties.Resources.resources
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.GenerateResource.Cache
+D:\IT Step\WPF\Примеры\14. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csprojResolveAssemblyReference.cache
+C:\Users\polyanskiy\Desktop\16. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe.config
+C:\Users\polyanskiy\Desktop\16. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.exe
+C:\Users\polyanskiy\Desktop\16. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.pdb
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe.config
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.pdb
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.AssemblyReference.cache
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.baml
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\App.g.cs
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF_MarkupCompile.cache
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.g.resources
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.Properties.Resources.resources
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.GenerateResource.cache
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.CoreCompileInputs.cache
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.exe
+C:\Users\krisc\Desktop\7. Команды\3. Создание привязки к тексту команды XAML\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.pdb
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe.config
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.exe
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\bin\Debug\CommandsWPF.pdb
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.AssemblyReference.cache
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.baml
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\App.g.cs
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF_MarkupCompile.cache
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.g.resources
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.Properties.Resources.resources
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.GenerateResource.cache
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.exe
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF.pdb
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\coffe\Desktop\CommandsWPF\CommandsWPF\obj\Debug\CommandsWPF_MarkupCompile.lref
