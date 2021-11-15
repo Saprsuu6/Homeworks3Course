@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yNM0voHM+Gpy+t7YilM8MhXd4a5RVfpA8Xkc8iroOxQ4tdh7S7IpbJQhvRrLjKJi0FJRJcv9Yl8dzp/cUFG9Ww==",
+  "dgSpecHash": "/XOAL+yLO81ua03pLTB4LjwA4q6HMtHYeYYGWELM5Eg9ATbVq1qolFUWB9toElBRuMERl3NMuipGgMEpziv5ZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\coffe\\source\\repos\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\coffe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\coffe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\coffe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\coffe\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

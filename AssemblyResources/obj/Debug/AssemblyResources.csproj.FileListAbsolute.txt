@@ -1,0 +1,109 @@
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\bin\Debug\Sounds\ding.wav
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\bin\Debug\Sounds\start.wav
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\bin\Debug\AssemblyResources.exe
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\bin\Debug\AssemblyResources.pdb
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\Window1.baml
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\App.g.cs
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\AssemblyResources_Content.g.cs
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\AssemblyResources.csproj.GenerateResource.Cache
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\AssemblyResources.exe
+C:\Documents and Settings\Polyanskiy\Рабочий стол\WPF\Books\Pro WPF\Chapter11\AssemblyResources\obj\Debug\AssemblyResources.pdb
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.exe
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.pdb
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.exe
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.pdb
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\ResolveAssemblyReference.cache
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\Window1.baml
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\Window1.g.cs
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\App.g.cs
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\bin\Debug\Sounds\ding.wav
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\bin\Debug\Sounds\start.wav
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_Content.g.cs
+C:\Vitaliy\WPF\Примеры\Примеры\7. Ресурсы\AssemblyResources\bin\Debug\Sounds\1.avi
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\1.avi
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\ding.wav
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\start.wav
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.exe
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.pdb
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\ResolveAssemblyReference.cache
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\Window1.baml
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\Window1.g.cs
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\App.g.cs
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_Content.g.cs
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+D:\Учебный процесс\БПВ-0921\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\1.avi
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\ding.wav
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\start.wav
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.exe
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.pdb
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\Window1.baml
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\Window1.g.cs
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\App.g.cs
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_Content.g.cs
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+D:\Programming\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\1.avi
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\ding.wav
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.exe
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.pdb
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\Window1.baml
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\Window1.g.cs
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\App.g.cs
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_Content.g.cs
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.csproj.GenerateResource.Cache
+D:\БПУ-1211\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\start.wav
+D:\ЕКО-12-П11\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\ЕКО-12-П11\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.exe
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.pdb
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.exe.config
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\start.wav
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\1.avi
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\Sounds\ding.wav
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.exe
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\bin\Debug\AssemblyResources.pdb
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.csprojResolveAssemblyReference.cache
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\Window1.baml
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\Window1.g.cs
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\App.g.cs
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_Content.g.cs
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+D:\Vitaliy\WPF\WPF\Примеры\6. Ресурсы\AssemblyResources\obj\Debug\AssemblyResources.csproj.GenerateResource.Cache
+C:\Users\coffe\Desktop\AssemblyResources\bin\Debug\AssemblyResources.exe.config
+C:\Users\coffe\Desktop\AssemblyResources\bin\Debug\AssemblyResources.exe
+C:\Users\coffe\Desktop\AssemblyResources\bin\Debug\AssemblyResources.pdb
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources.csproj.AssemblyReference.cache
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources.csproj.SuggestedBindingRedirects.cache
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\Window1.baml
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\Window1.g.cs
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\App.g.cs
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources_MarkupCompile.cache
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources.g.resources
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources.Properties.Resources.resources
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources.csproj.GenerateResource.cache
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources.exe
+C:\Users\coffe\Desktop\AssemblyResources\obj\Debug\AssemblyResources.pdb
