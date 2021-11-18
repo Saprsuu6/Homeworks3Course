@@ -1,0 +1,16 @@
+C:\Users\coffe\source\repos\Animation\Animation\bin\Debug\Animation.exe.config
+C:\Users\coffe\source\repos\Animation\Animation\bin\Debug\Animation.exe
+C:\Users\coffe\source\repos\Animation\Animation\bin\Debug\Animation.pdb
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation.csproj.AssemblyReference.cache
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation.csproj.SuggestedBindingRedirects.cache
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\MainWindow.g.cs
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\App.g.cs
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation_MarkupCompile.cache
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation_MarkupCompile.lref
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\MainWindow.baml
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation.g.resources
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation.Properties.Resources.resources
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation.csproj.GenerateResource.cache
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation.csproj.CoreCompileInputs.cache
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation.exe
+C:\Users\coffe\source\repos\Animation\Animation\obj\Debug\Animation.pdb
