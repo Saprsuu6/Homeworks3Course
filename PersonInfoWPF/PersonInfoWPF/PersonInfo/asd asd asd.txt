@@ -1,0 +1,9 @@
+Name: asd
+Surname: asd
+Patronimic: asd
+Sex: Woman
+Birthday:
+	Year: 2021
+	Month: 11
+	Day: 23
+Info: 
