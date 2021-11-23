@@ -19,8 +19,8 @@
         <TextBlock VerticalAlignment="Center" Text="Sex" FontSize="20" FontWeight="Normal" Margin="20,0,0,0"/>
         <GroupBox Margin="0,0,5,0">
             <UniformGrid Columns="2">
-                <RadioButton VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Content="Male" FontSize="20" HorizontalAlignment="Center" Name="Male"/>
-                <RadioButton VerticalContentAlignment="Center" VerticalAlignment="Center" Content="Famale" FontSize="20" HorizontalAlignment="Center" Name="Famale"/>
+                <RadioButton VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Content="Male" FontSize="14" HorizontalAlignment="Center" Name="Male"/>
+                <RadioButton VerticalContentAlignment="Center" VerticalAlignment="Center" Content="Famale" FontSize="14" HorizontalAlignment="Center" Name="Famale"/>
             </UniformGrid>
         </GroupBox>
 

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GC953dO0tL47p1wSLQsS6mMnBSdXCSlJNQTIKOcNccFasLHMekj/dlcagXCvP6CCSEQfISZShaYyjV/hEaVc2g==",
+  "dgSpecHash": "ulcxehHlul876C3IZElXy8WcLeT3uPKjVinqUTTjcz44pc9zDsXEh+sXs8naWIQgn5doE32uMU7jmUr4GfuGJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\coffe\\Desktop\\Homeworks3Course\\PersonInfoWPF\\PersonInfoWPF\\PersonInfoWPF.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\coffe\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\coffe\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
