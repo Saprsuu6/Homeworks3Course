@@ -1,0 +1,102 @@
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\bin\Debug\SampleMVVM.exe
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\bin\Debug\SampleMVVM.pdb
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\Views\MainView.g.cs
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\App.g.cs
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.cache
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.lref
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\Views\MainView.baml
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.g.resources
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.Properties.Resources.resources
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.csproj.GenerateResource.Cache
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.exe
+C:\Users\Виталий\Desktop\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.pdb
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.exe
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.pdb
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\bin\Debug\SampleMVVM.exe
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\bin\Debug\SampleMVVM.pdb
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\Views\MainView.g.cs
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\App.g.cs
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.cache
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.lref
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\Views\MainView.baml
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.g.resources
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.Properties.Resources.resources
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\obj\Debug\SampleMVVM.csproj.GenerateResource.Cache
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\SampleMVVM\SampleMVVM\bin\Debug\SampleMVVM.exe.config
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe.config
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.exe
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.pdb
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.pdb
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csprojResolveAssemblyReference.cache
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.g.cs
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\App.g.cs
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.cache
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.lref
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.baml
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.g.resources
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.Properties.Resources.resources
+D:\Programming\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.GenerateResource.Cache
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe.config
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.exe
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.pdb
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.pdb
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csprojResolveAssemblyReference.cache
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.g.cs
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\App.g.cs
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.cache
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.lref
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.baml
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.g.resources
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.Properties.Resources.resources
+D:\IT Step\Архитектура ПО\Архитектура GUI-приложений\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.GenerateResource.Cache
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe.config
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.pdb
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.g.cs
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\App.g.cs
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.cache
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.baml
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.g.resources
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.Properties.Resources.resources
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.GenerateResource.Cache
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.CoreCompileInputs.cache
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.exe
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.pdb
+C:\Users\polyanskiy\Desktop\MVVM\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csprojResolveAssemblyReference.cache
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe.config
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.pdb
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.baml
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.g.cs
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\App.g.cs
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.cache
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.g.resources
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.Properties.Resources.resources
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.GenerateResource.cache
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.CoreCompileInputs.cache
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.exe
+C:\Users\krisc\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.pdb
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe.config
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.exe
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\SampleMVVM.pdb
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.AssemblyReference.cache
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.baml
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\Views\MainView.g.cs
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\App.g.cs
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.cache
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.g.resources
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.Properties.Resources.resources
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.GenerateResource.cache
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.CoreCompileInputs.cache
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.exe
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.pdb
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM_MarkupCompile.lref
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\MaterialDesignColors.dll
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\MaterialDesignColors.pdb
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\coffe\Desktop\Паттерн Model View ViewModel\MVVM #2\SampleMVVM\obj\Debug\SampleMVVM.csproj.CopyComplete

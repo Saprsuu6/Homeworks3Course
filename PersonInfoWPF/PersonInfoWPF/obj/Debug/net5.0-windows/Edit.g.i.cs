@@ -120,7 +120,7 @@ namespace PersonInfoWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PersonInfoWPF;component/edit.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PersonInfoWPF;V1.0.0.0;component/edit.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Edit.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

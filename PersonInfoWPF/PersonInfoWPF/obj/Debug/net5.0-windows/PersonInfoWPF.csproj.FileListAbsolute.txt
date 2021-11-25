@@ -46,7 +46,7 @@ C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\obj\Debug\ne
 C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\obj\Debug\net5.0-windows\ref\PersonInfoWPF.dll
 C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\obj\Debug\net5.0-windows\PersonInfoWPF.pdb
 C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\obj\Debug\net5.0-windows\PersonInfoWPF.genruntimeconfig.cache
-C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\obj\Debug\net5.0-windows\App.baml
 C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\bin\Debug\net5.0-windows\MaterialDesignColors.dll
 C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
 C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\obj\Debug\net5.0-windows\PersonInfoWPF.csproj.CopyComplete
+C:\Users\coffe\Desktop\Homeworks3Course\PersonInfoWPF\PersonInfoWPF\obj\Debug\net5.0-windows\App.baml
